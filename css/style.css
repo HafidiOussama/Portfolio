@@ -757,6 +757,10 @@ section.active {
     html {
         font-size: 50%;
     }
+    .home-img .img-box {
+        width: 17rem;
+        height: 17rem;
+    }
 }
 @media screen and (max-width: 400px) {
     .home-detail,
@@ -780,6 +784,16 @@ section.active {
 
     .contact-box h2 {
         font-size: 3.5rem;
+    }
+    .home-img .img-box {
+        width: 17rem;
+        height: 17rem;
+    }
+}
+@media screen and (max-width: 300px) {
+    .home-img .img-box {
+        width: 11rem;
+        height: 11rem;
     }
 }
 

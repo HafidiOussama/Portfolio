@@ -722,8 +722,8 @@ section.active {
         gap: 2rem;
     }
     .home-img .img-box {
-        width: 35rem;
-        height: 35rem;
+        width: 32vw;
+        height: 32vw;
     }
     .resume-container,
     .portfolio-container,

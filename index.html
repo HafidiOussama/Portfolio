@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Complete Responsive Portfolio Website</title>
+        <!-- boxicons -->
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+        <!-- boxicons -->
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+
+    <body>
+        <!-- Message personnalisé caché par défaut -->
+        <div id="popup-message" style="display: none;">
+            Thanks! Your message has been sent successfully. 😊
+        </div>
+        
+        
+        <!--header-->
+        <header class="active">
+            <a href="#" class="logo">Hafidi.</a>
+            <i class='bx bx-menu' id="menu-icon"></i>
+            <nav>
+                <a href="#" class="active">Home</a>
+                <a href="#">Services</a>
+                <a href="#">Resume</a>
+                <a href="#">Portfolio</a>
+                <a href="#">Contact</a>
+            </nav>
+        </header>
+        <!-- bars background -->
+         <div class="bars-box active">
+            <div class="bar" style="--i:6;"></div>
+            <div class="bar" style="--i:5;"></div>
+            <div class="bar" style="--i:4;"></div>
+            <div class="bar" style="--i:3;"></div>
+            <div class="bar" style="--i:2;"></div>
+            <div class="bar" style="--i:1;"></div>
+        </div>
+
+        <!--home section-->
+        <section class="home active">
+            <div class="home-detail">
+                <h1>Hafidi Oussama</h1>
+                <h2>I'm a 
+                    <span style="--i:3" data-text="Full-Stack Developer">Full-Stack Developer</span>
+                    <span style="--i:2" data-text="Web Application Developer">Web Application Developer</span>
+                    <span style="--i:1" data-text="Mobile Application Developer">Mobile Application Developer</span>
+                    
+                </h2>
+
+                <p>2nd-Year Software Engineering Student
+                    Passionate about software development and innovative technologies, I am currently training to become a software engineer. My academic background and personal projects have allowed me to develop strong skills in programming, algorithm design, database management, and application development.</p>
+                <div class="btn-sci">
+                    <a href="https://drive.google.com/file/d/133NM1oHvAnOA9tST-qNrpVHZyDO4Y9e6/view?usp=drivesdk" class="btn">Download CV <i class='bx bx-download' ></i></a>
+                    <div class="sci">
+                        <a href="https://github.com/HafidiOussama"><i class='bx bxl-github' ></i></a>
+                        <a href="http://linkedin.com/in/oussama-hafidi-5316552a8/"><i class='bx bxl-linkedin' ></i></a>
+                        
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="home-img">
+                <div class="img-box">
+                    <div class="img-item">
+                        <img src="images/image1-removebg-preview.png" >
+                    </div>
+                </div>
+            </div>
+        </section>
+       <!--services section-->
+       <section class="services">
+        <h2 class="heading">My <span>Services</span></h2>
+        <div class="services-container">
+            <div class="services-box">
+                <div class="icon">
+                    <i class='bx bx-code-alt' ></i>
+                    <a href="#"><i class='bx bx-arrow-back' ></i></a>
+                </div>
+                <h3>Web Application Development</h3>
+                <p>I develop dynamic, scalable, and secure web applications using the latest technologies. Whether you need a progressive web app (PWA), SaaS platform, or enterprise web solution, I ensure high performance, intuitive UX, and robust backend functionality.</p>
+            </div>
+            <div class="services-box">
+                <div class="icon">
+                    <i class='bx bx-mobile'></i>
+                    <a href="#"><i class='bx bx-arrow-back' ></i></a>
+                </div>
+                <h3>Mobile Application Development</h3>
+                <p> develop native and hybrid mobile applications for Android that deliver a seamless user experience. From enterprise applications to consumer solutions, I create fast, responsive, and feature-rich apps that drive engagement.</p>
+            </div>
+            <div class="services-box">
+                <div class="icon">
+                    <i class='bx bx-code-alt' ></i>
+                    <a href="#"><i class='bx bx-arrow-back' ></i></a>
+                </div>
+                <h3> Desktop Application Development</h3>
+                <p>I design and develop high-performance cross-platform desktop applications tailored to your business needs. </p>
+            </div>
+            
+        </div>
+       </section>
+       <!--resume section-->
+       <section class="resume">
+        <div class="resume-container">
+            <div class="resume-box">
+                <h2>Why Hire Me?</h2>
+                <p class="desc">I offer a strong technical background in web development, combined with a passion for problem-solving, attention to detail, and a team-oriented mindset, which will make me a valuable addition to your team.</p>
+                <button class="resume-btn active">Experience</button>
+                <button class="resume-btn">Education</button>
+                <button class="resume-btn">Skills</button>
+                <button class="resume-btn">About Me</button>
+            </div>
+            <div class="resume-box">
+                <div class="resume-detail experience active">
+                    <h2 class="heading">My <span>Experience</span></h2>
+                    <p class="desc">A curated showcase of impactful projects, technical challenges overcome, and solutions delivered across web, mobile, and software domains.</p>
+                    <div class="resume-list">
+                        <div class="resume-item">
+                            
+                            <h3>Web Developer</h3>
+                            <p class="year"> 23_06_2024 - 31_07_2024</p>
+                            <p class="company">OCP Jorf Lasfar, El Jadida</p>
+                            <p>Designed and developed a web application for managing space reservations at the Sidi Salah club.
+                                Digitized the booking process for club spaces, catering services for meetings, and logistics management.
+                                Technologies used: PHP, HTML, React.js, JavaScript, CSS, MySQL.</p>
+                        </div>
+                    </div>
+                </div>
+            
+            
+                <div class="resume-detail education">
+                    <h2 class="heading">My <span>Education</span></h2>
+                    <!-- <p class="desc">Lorem ipsum dolor sit consecteur adipisicing elit. Quam, exercitation nihil enim corporis esse facilis tempore assumenda quidem quaerat expedita.</p> -->
+                    <div class="resume-list">
+                        <div class="resume-item">
+                            
+                            <p class="year"> 2020-2021</p>
+                            <h3>Lycée Technique ERRAZI</h3>
+                            <p class="company">EL JADIDA</p>
+                            
+                            <p>Bachelor’s Degree in Mechanical Sciences and Technologies</p>
+                           
+                        </div>
+                        <div class="resume-item">
+                            <p class="year">2021-2023</p>
+                            <h3>CPGE Mohammedia</h3>
+                            <p class="company"> MOHAMMEDIA </p>
+                            <p>Preparatory Cycle in Technology and Industrial Sciences (CPGE)</p>
+                        </div>
+                        <div class="resume-item">
+                            <p class="year">2023-2026</p>
+                            <h3>ENSA</h3>
+                            <p class="company">Oujda</p>
+                            <p>Engineering Cycle in Computer Science</p>
+                        </div>
+                    </div>
+
+                </div>
+            
+           
+                <div class="resume-detail skills">
+                    <h2 class="heading">My <span>skills</span></h2>
+                    
+                    <div class="resume-list">
+                        <div class="resume-item">
+                            <i class='bx bxl-html5'></i>
+                            <span>HTML5</span>
+                        </div>
+                        <div class="resume-item">
+                            <i class='bx bxl-css3' ></i>
+                            <span>CSS3</span>
+                        </div>
+                        <div class="resume-item">
+                            <i class='bx bxl-javascript' ></i>
+                            <span>JavaScript</span>
+                        </div>
+                        <div class="resume-item">
+                            <i class='bx bxl-react' ></i>
+                            <span>React.js</span>
+                        </div>
+                        <div class="resume-item">
+                            <i class='bx bxl-tailwind-css' ></i>
+                            <span>Tailwind CSS</span>
+                        </div>
+                        <div class="resume-item">
+                            <i class='bx bxl-spring-boot' ></i>
+                            <span>Spring boot</span>
+                        </div>
+                    <!-- hhhh -->
+                    <div class="resume-item">
+                        <i class='bx bxl-python' ></i>
+                        <span>Python</span>
+                    </div>
+                    <div class="resume-item">
+                        <i class='bx bxl-java' ></i>
+                        <span>Java</span>
+                    </div>
+                    <div class="resume-item">
+                        <i class='bx bxl-bootstrap' ></i>
+                        <span>Bootstrap</span>
+                    </div>
+                    <div class="resume-item">
+                        <i class='bx bxl-postgresql' ></i>
+                        <span>PostgreSQL</span>
+                    </div>
+                    <div class="resume-item">
+                        <i class='bx bxl-c-plus-plus' ></i>
+                        <span>C++</span>
+                    </div>
+                    <div class="resume-item">
+                        <i class='bx bxl-docker' ></i>
+                        <span>Docker</span>
+                    </div>
+                    <div class="resume-item">
+                        <i class='bx bxl-mongodb'></i>
+                        <span>Mongodb</span>
+                    </div>
+                    
+                        
+                    </div>
+
+                </div>
+            
+            
+                <div class="resume-detail about">
+                    <h2 class="heading">About <span>Me</span></h2>
+                    <p class="desc">2nd-Year Software Engineering Student
+                        Passionate about software development and innovative technologies, I am currently training to become a software engineer. My academic background and personal projects have allowed me to develop strong skills in programming, algorithm design, database management, and application development.</p>
+                    <div class="resume-list">
+                        <div class="resume-item">
+                            <p>Name <span>Hafidi Oussama</span></p>
+                        </div>
+                        <div class="resume-item">
+                            <p> Gender <span>Male</span></p>
+                        </div>
+                        <div class="resume-item">
+                            <p>Age <span>21 Year Old</span></p>
+                        </div>
+                        
+                        <div class="resume-item">
+                            <p>City <span>Oujda</span></p>
+                        </div>
+                        <div class="resume-item">
+                            <p>Nationality <span>Moroccan</span></p>
+                        </div>
+                        <div class="resume-item">
+                            <p>Phone <span>0616895291</span></p>
+                        </div>
+                       
+                        
+                        
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+       </section>
+       <!--portfolio section-->
+       <section class="portfolio">
+        <h2 class="heading">Latest <span>Project</span></h2>
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <div class="portfolio-detail active">
+                    <p class="numb">Link Up</p>
+                    <h3>Mobile application</h3>
+                    <p>Link Up is a mobile social networking application developed using Java and Android Studio. The app enables users to create profiles, connect with others and interact with friends through comments and likes. </p>
+                    <div class="tech">
+                        <p>Java, XML, Firebase, SQLite</p>
+                    </div>
+                    <div class="live-github">
+                        <a href="#"><i class='bx bx-arrow-back' ></i><span>Live Project</span></a>
+                        <a href="https://github.com/HafidiOussama/LinkUP"><i class='bx bxl-github' ></i><span>github Repository</span></a>
+                        
+                    </div>
+                </div>
+               
+                <div class="portfolio-detail">
+                    <p class="numb">Employee management</p>
+                    <h3>full-stack web application</h3>
+                    <p>Employee Management is a full-stack web application built with Symfony for comprehensive employee management within a company. It allows adding, editing, and managing employees, tracking absences and leaves, handling salaries, and assigning tasks. The project features a robust backend paired with a clean and user-friendly interface.</p>
+                    <div class="tech">
+                        <p>Symfony, Twig, HTML, CSS, Bootstrap, MySQL </p>
+                    </div>
+                    <div class="live-github">
+                        <a href="#"><i class='bx bx-arrow-back' ></i><span>Live Project</span></a>
+                        <a href="https://github.com/HafidiOussama/employee-management"><i class='bx bxl-github' ></i><span>github Repository</span></a>
+                        
+                    </div>
+                </div>
+                <div class="portfolio-detail">
+                    <p class="numb">PERT Method</p>
+                    <h3>Desktop Application</h3>
+                    <p>PERT Method Desktop Application is a Python-based desktop application designed to perform calculations using the PERT (Program Evaluation Review Technique) method. The application allows users to input tasks, durations, and dependencies, calculating the expected project completion time.</p>
+                    <div class="tech">
+                        <p>Python</p>
+                    </div>
+                    <div class="live-github">
+                        <a href="#"><i class='bx bx-arrow-back' ></i><span>Live Project</span></a>
+                        <a href="https://github.com/HafidiOussama/PERT-METHOD"><i class='bx bxl-github' ></i><span>github Repository</span></a>
+                        
+                    </div>
+                </div>
+                <div class="portfolio-detail">
+                    <p class="numb">Portfolio</p>
+                    <h3>web application</h3>
+                    <p>Developed a personal portfolio website to showcase projects, skills, and professional experiences. Built using modern web technologies to ensure responsive design and smooth user experience.</p>
+                    <div class="tech">
+                        <p>HTML, CSS, JavaScript</p>
+                    </div>
+                    <div class="live-github">
+                        <a href="#"><i class='bx bx-arrow-back' ></i><span>Live Project</span></a>
+                        <a href="https://github.com/HafidiOussama/PERT-METHOD"><i class='bx bxl-github' ></i><span>github Repository</span></a>
+                        
+                    </div>
+                </div>
+                <div class="portfolio-detail">
+                    <p class="numb">P2E</p>
+                    <h3>Full-stack web application</h3>
+                    <P>PFA Project- Project currently in development</P>
+                    <p>Application pour la Gestion des appels à projets pour étudiants et des notations des jurys et suivi des projets au sein de P2E. </p>
+                    <div class="tech">
+                        <p>Spring Boot, ReactJS, PostgreSQL</p>
+                    </div>
+                    
+                    <div class="live-github">
+                        <a href="#"><i class='bx bx-arrow-back' ></i><span>Live Project</span></a>
+                        <a href="https://github.com/HafidiOussama/PERT-METHOD"><i class='bx bxl-github' ></i><span>github Repository</span></a>
+                        
+                    </div>
+                </div>
+                <div class="portfolio-detail">
+                    <p class="numb">Clubs Space</p>
+                    <h3>Full-stack web application</h3>
+                    <P>Project currently in development</P>
+                    <p>Clubs Space is a web application designed to manage student clubs at ENSA Oujda. It allows users to explore clubs, follow their activities, and facilitates the administration of club-related events, members, and communications.</p>
+                    <div class="tech">
+                        <p>React.js Spring Boot, Mongodb</p>
+                    </div>
+                    <div class="live-github">
+                        <a href="#"><i class='bx bx-arrow-back' ></i><span>Live Project</span></a>
+                        <a href="https://github.com/HafidiOussama/PERT-METHOD"><i class='bx bxl-github' ></i><span>github Repository</span></a>
+                        
+                    </div>
+                </div>
+               
+            </div>
+            <div class="portfolio-box">
+                <div class="portfolio-carousel">
+                <div class="img-slide">
+                    <div class="img-item">
+                        <img src="/images/linkip.jpg" >
+                    </div>
+                    <div class="img-item">
+                        <img src="/images/symfony1.png" >
+                    </div>
+                    <div class="img-item">
+                        <img src="/images/pert.png" >
+                    </div>
+                    <div class="img-item">
+                        <img src="/images/portfolio.png" >
+                    </div>
+                    <div class="img-item">
+                        <img src="/images/P2E.png" >
+                    </div>
+                    <div class="img-item">
+                        <img src="/images/clubs.png" >
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="navigation">
+                <button class="arrow-left disabled"><i class='bx bx-chevron-left' ></i></button>
+                <button class="arrow-right"><i class='bx bx-chevron-right' ></i></button>
+            </div>
+        </div>
+        </div>
+       </section>
+       <!--contact section-->
+       <section class="contact">
+        <div class="contact-container">
+            <div class="contact-box">
+                <h2>Let's Work Together</h2>
+                <p>I'm always open to discussing new projects, creative ideas, or opportunities to be part of your vision. Whether you have a question, a proposal, or just want to say hi — feel free to get in touch</p>
+                <div class="contact-detail">
+                    <i class='bx bxs-phone'></i>
+                    <div class="detail">
+                        <p>Phone</p>
+                        <p>06 16 89 52 91</p>
+                    </div>
+                </div>
+                <div class="contact-detail">
+                    <i class='bx bxs-envelope' ></i>
+                    <div class="detail">
+                        <p>Email</p>
+                        <p>hafidioussama2004@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contact-box">
+                <form id="contact-form" action="https://formspree.io/f/xzzewbjz" method="POST">
+                    <h2 class="heading">Contact <span>Me!</span></h2>
+                    <div class="field-box">
+                        <input type="text" name="name" placeholder="Full Name" required>
+                        <input type="email" name="email" placeholder="Email Address" required>
+                        <input type="text" name="phone" placeholder="Phone Number" required>
+                        <input type="text" name="subject" placeholder="Email Subject" required>
+                        <textarea name="message" placeholder="Your Message" required></textarea>
+                        <input type="text" name="_gotcha" style="display:none">
+                    </div>
+                    <button type="submit" class="btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+       </section>
+       
+       
+        
+       
+       
+       <script src="js/script.js"></script>
+    </body>
+</html>
+
